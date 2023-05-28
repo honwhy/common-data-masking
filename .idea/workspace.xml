@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="49a46cc3-35c7-4e71-9982-564d46b0540a" name="Changes" comment="init commit">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thh3/MaskJackUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thh3/MaskUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thh3/annotation/MaskAny.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thh3/annotation/MaskCarNo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thh3/annotation/MaskMobile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thh3/filter/fast/CarNoValueFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thh3/filter/fast/MobileValueFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thh3/filter/jack/AnyBeanPropertyFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thh3/filter/jack/CarNoBeanPropertyFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thh3/filter/jack/MobileBeanPropertyFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thh3/AnyDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thh3/CarNoDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thh3/MobileDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thh3/fast/MaskCarNoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thh3/fast/MaskMobileTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thh3/fast/MaskUtilTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thh3/jack/MaskJackCarNoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thh3/jack/MaskJackMobileTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thh3/jack/MaskJackUtilTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2QPciyXFXzCjq88QUUa83N7CakL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveInnerDialog.RECENTS_KEY">
+      <recent name="com.thh3" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.thh3" />
+      <recent name="com.thh3.filter.jack" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.MaskJackCarNoTest.test">
+    <configuration name="MaskJackCarNoTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="common-data-masking" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thh3.jack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.thh3.jack" />
+      <option name="MAIN_CLASS_NAME" value="com.thh3.jack.MaskJackCarNoTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaskJackMobileTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="common-data-masking" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thh3.jack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.thh3.jack" />
+      <option name="MAIN_CLASS_NAME" value="com.thh3.jack.MaskJackMobileTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaskJackUtilTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="common-data-masking" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thh3.fast.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.thh3.fast" />
+      <option name="MAIN_CLASS_NAME" value="com.thh3.fast.MaskJackUtilTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaskUtilTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="common-data-masking" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thh3.filter.fast.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.thh3.fast" />
+      <option name="MAIN_CLASS_NAME" value="com.thh3.fast.MaskUtilTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MaskJackMobileTest.test" />
+        <item itemvalue="JUnit.MaskJackCarNoTest.test" />
+        <item itemvalue="JUnit.MaskJackUtilTest.test" />
+        <item itemvalue="JUnit.MaskUtilTest.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="49a46cc3-35c7-4e71-9982-564d46b0540a" name="Changes" comment="" />
+      <created>1685258792966</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1685258792966</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="init commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/thh3/filter/fast/CarNoValueFilter.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
