@@ -1,14 +1,21 @@
 package com.thh3.filter.jack;
 
+import cn.hutool.core.util.StrUtil;
 import com.fasterxml.jackson.core.JsonGenerator;
 import com.fasterxml.jackson.databind.SerializerProvider;
 import com.fasterxml.jackson.databind.ser.PropertyWriter;
 import com.fasterxml.jackson.databind.ser.impl.SimpleBeanPropertyFilter;
 import com.thh3.annotation.MaskMobile;
+import com.thh3.filter.fast.AllPattern;
+import com.thh3.filter.fast.MarkFilter;
 
 import java.lang.reflect.Field;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
-public class MobileBeanPropertyFilter extends SimpleBeanPropertyFilter {
+public class MobileBeanPropertyFilter extends SimpleBeanPropertyFilter implements MarkFilter {
+
+    final Pattern pattern = AllPattern.MOBILE_PATTERN;
 
     @Override
     public void serializeAsField(Object pojo, JsonGenerator jgen, SerializerProvider provider, PropertyWriter writer) throws Exception {
@@ -24,19 +31,35 @@ public class MobileBeanPropertyFilter extends SimpleBeanPropertyFilter {
         try {
             String propertyName = writer.getName();
             Field field = pojo.getClass().getDeclaredField(propertyName);
+            field.setAccessible(true);
+            Object fieldValue = field.get(pojo);
+            if (fieldValue == null || StrUtil.isBlank(String.valueOf(fieldValue))) {
+                return ;
+            }
             if (field.isAnnotationPresent(MaskMobile.class)) {
-                MaskMobile annotation = field.getAnnotation(MaskMobile.class);
-                String regex = annotation.regex();
-                String replace = annotation.replace();
-                field.setAccessible(true);
-                Object fieldValue = field.get(pojo);
-                String propertyValue = String.valueOf(fieldValue);
-                String val = String.valueOf(propertyValue);
-                val = val.replaceAll(regex, replace);
-                field.set(pojo, val);
+                String result = doMask(fieldValue);
+                if (result != null) {
+                    field.set(pojo, result);
+                }
             }
         } catch (NoSuchFieldException e) {
             // throw new RuntimeException(e);
         }
+    }
+
+    @Override
+    public String doMask(Object propertyValue) {
+        Matcher matcher = pattern.matcher(String.valueOf(propertyValue));
+        if (matcher.find()) {
+            String g1 = matcher.group(1);
+            String g2 = matcher.group(2);
+            String g3 = matcher.group(3);
+            StringBuilder sb = new StringBuilder(10);
+            sb.append(g1);
+            sb.append(g2.replaceAll(".","*"));
+            sb.append(g3);
+            return sb.toString();
+        }
+        return null;
     }
 }
