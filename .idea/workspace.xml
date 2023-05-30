@@ -4,24 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49a46cc3-35c7-4e71-9982-564d46b0540a" name="Changes" comment="init commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thh3/MaskMapUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thh3/filter/fast/KeyMapValueFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thh3/filter/fast/MarkFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thh3/fast/MaskMapUtilTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thh3/filter/fast/CarNoValueFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thh3/filter/fast/CarNoValueFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thh3/filter/fast/MobileValueFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thh3/filter/fast/MobileValueFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thh3/filter/jack/CarNoBeanPropertyFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thh3/filter/jack/CarNoBeanPropertyFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thh3/filter/jack/MobileBeanPropertyFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thh3/filter/jack/MobileBeanPropertyFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thh3/fast/MaskCarNoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thh3/fast/MaskCarNoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thh3/fast/MaskMobileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thh3/fast/MaskMobileTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thh3/fast/MaskUtilTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thh3/fast/MaskUtilTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thh3/jack/MaskJackCarNoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thh3/jack/MaskJackCarNoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thh3/jack/MaskJackMobileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thh3/jack/MaskJackMobileTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thh3/jack/MaskJackUtilTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thh3/jack/MaskJackUtilTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="49a46cc3-35c7-4e71-9982-564d46b0540a" name="Changes" comment="add key map filter" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -178,11 +161,19 @@
       <option name="project" value="LOCAL" />
       <updated>1685265910265</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add key map filter">
+      <created>1685462591809</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1685462591809</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="init commit" />
+    <MESSAGE value="add key map filter" />
+    <option name="LAST_COMMIT_MESSAGE" value="add key map filter" />
   </component>
 </project>

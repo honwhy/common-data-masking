@@ -6,7 +6,7 @@ import com.fasterxml.jackson.databind.SerializerProvider;
 import com.fasterxml.jackson.databind.ser.PropertyWriter;
 import com.fasterxml.jackson.databind.ser.impl.SimpleBeanPropertyFilter;
 import com.thh3.annotation.MaskCarNo;
-import com.thh3.filter.fast.AllPattern;
+import com.thh3.filter.AllPattern;
 import com.thh3.filter.fast.MarkFilter;
 
 import java.lang.reflect.Field;

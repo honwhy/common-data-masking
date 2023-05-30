@@ -1,4 +1,4 @@
-package com.thh3.filter.fast;
+package com.thh3.filter;
 
 import java.util.regex.Pattern;
 

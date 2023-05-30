@@ -3,6 +3,7 @@ package com.thh3.filter.fast;
 import cn.hutool.core.util.StrUtil;
 import com.alibaba.fastjson.serializer.ValueFilter;
 import com.thh3.annotation.MaskCarNo;
+import com.thh3.filter.AllPattern;
 
 import java.lang.reflect.Field;
 import java.util.regex.Matcher;
