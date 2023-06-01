@@ -82,6 +82,9 @@ dto.put("carNo", "粤B-D23456");
 dto.put("mobile", "13700137000");
 String json = MaskMapUtil.toJSONString(dto);
 ```
+
+# idea
+![img](https://user-images.githubusercontent.com/2212273/242665721-a33991ce-cf67-4c58-8022-2de2af761726.png)
 # documents
 
 - [fastjson-wiki](https://github.com/alibaba/fastjson/wiki)
