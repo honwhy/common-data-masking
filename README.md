@@ -1,4 +1,5 @@
 # common-data-masking
+*WIP do not use in production*
 
 Data masking util based on Fastjson ValueFilter and Jackson SimpleBeanPropertyFilter
 
