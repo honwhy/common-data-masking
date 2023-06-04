@@ -4,5 +4,7 @@ import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 
 @Retention(RetentionPolicy.RUNTIME)
-public @interface MaskAny {
+public @interface MaskTag {
+
+    MaskType type() default MaskType.ANY;
 }

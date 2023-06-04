@@ -5,7 +5,8 @@ import com.fasterxml.jackson.core.JsonGenerator;
 import com.fasterxml.jackson.databind.SerializerProvider;
 import com.fasterxml.jackson.databind.ser.PropertyWriter;
 import com.fasterxml.jackson.databind.ser.impl.SimpleBeanPropertyFilter;
-import com.thh3.annotation.MaskCarNo;
+import com.thh3.annotation.MaskTag;
+import com.thh3.annotation.MaskType;
 import com.thh3.filter.AllPattern;
 import com.thh3.filter.fast.MarkFilter;
 
@@ -36,10 +37,13 @@ public class CarNoBeanPropertyFilter extends SimpleBeanPropertyFilter implements
             if (fieldValue == null || StrUtil.isBlank(String.valueOf(fieldValue))) {
                 return ;
             }
-            if (field.isAnnotationPresent(MaskCarNo.class)) {
-                String result = doMask(fieldValue);
-                if (result != null) {
-                    field.set(pojo, result);
+            if (field.isAnnotationPresent(MaskTag.class)) {
+                MaskTag annotation = field.getAnnotation(MaskTag.class);
+                if (MaskType.CAR_NO.equals(annotation.type())) {
+                    String result = doMask(fieldValue);
+                    if (result != null) {
+                        field.set(pojo, result);
+                    }
                 }
             }
         } catch (NoSuchFieldException e) {
