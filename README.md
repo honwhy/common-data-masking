@@ -1,7 +1,7 @@
 # common-data-masking
 *WIP do not use in production*
 
-Data masking util based on Fastjson ValueFilter and Jackson SimpleBeanPropertyFilter
+Data masking util based on Fastjson ValueFilter and Jackson SimpleBeanPropertyFilter, and use RewritePolicy for masking sensitive message of log4j2
 
 # usage
 
