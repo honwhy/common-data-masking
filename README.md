@@ -85,7 +85,7 @@ String json = MaskMapUtil.toJSONString(dto);
 ```
 
 # idea
-![img](https://user-images.githubusercontent.com/2212273/242665721-a33991ce-cf67-4c58-8022-2de2af761726.png)
+![img](https://user-images.githubusercontent.com/2212273/243726447-3f026eca-536e-40a1-80d0-42c1392deaf9.png)
 # documents
 
 - [fastjson-wiki](https://github.com/alibaba/fastjson/wiki)
