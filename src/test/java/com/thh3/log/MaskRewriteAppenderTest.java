@@ -15,5 +15,6 @@ public class MaskRewriteAppenderTest {
         log.info("{}", "13700137000");
         org.apache.logging.log4j.Marker maskMark = MarkerManager.getMarker("MASK_MARKER");
         logger.info(maskMark, "{}", "13700137000");
+        logger.info(maskMark, "{}", "粤B-D23456");
     }
 }
